@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 
 const sermons = [
   {
@@ -100,14 +99,6 @@ function PlayIcon() {
 export default function Sermons() {
   const featured = sermons.find((s) => s.featured)!;
   const rest = sermons.filter((s) => !s.featured);
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://bob.test/kb-widget.js';
-    script.async = true;
-    document.body.appendChild(script);
-    return () => { document.body.removeChild(script); };
-  }, []);
 
   return (
     <section id="sermons" className="py-20 bg-[#F7FAFC]">
@@ -235,8 +226,8 @@ export default function Sermons() {
         <div className="mt-10 bg-white rounded-2xl border border-gray-100 shadow-sm p-8 md:p-10">
           <div
             data-kb-widget
-            data-api-key="pub_ohg3SK3STJbPLc8nD6SE1PfiecbWTh98"
-            data-api-base="https://sermon_search-kwrxamip.on-forge.com/api/v1"
+            data-api-key={import.meta.env.VITE_KB_API_KEY}
+            data-api-base={import.meta.env.VITE_KB_API_BASE}
           />
         </div>
 

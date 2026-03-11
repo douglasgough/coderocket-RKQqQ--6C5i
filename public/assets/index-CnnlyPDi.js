@@ -21513,15 +21513,6 @@ function PlayIcon() {
 function Sermons() {
   const featured = sermons.find((s) => s.featured);
   const rest = sermons.filter((s) => !s.featured);
-  reactExports.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://bob.test/kb-widget.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
   return /* @__PURE__ */ jsxRuntimeExports.jsx("section", { id: "sermons", className: "py-20 bg-[#F7FAFC]", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 sm:px-6 lg:px-8", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-4xl md:text-5xl font-bold text-gray-900 mb-4", children: "Sermons" }),
@@ -21609,7 +21600,7 @@ function Sermons() {
       "div",
       {
         "data-kb-widget": true,
-        "data-api-key": "pub_cNty4Fucb6bHeXKSNxP5oPXOVz1iRwkY",
+        "data-api-key": "pub_OmJ6N0Qyvuj42usGqqKXcv6MAG0imb1F",
         "data-api-base": "https://bob.test/api/v1"
       }
     ) }),
