@@ -236,7 +236,7 @@ export default function Sermons() {
           <div
             data-kb-widget
             data-api-key="pub_ohg3SK3STJbPLc8nD6SE1PfiecbWTh98"
-            data-api-base="https://bob.test/api/v1"
+            data-api-base="https://sermon_search-kwrxamip.on-forge.com/api/v1"
           />
         </div>
 
