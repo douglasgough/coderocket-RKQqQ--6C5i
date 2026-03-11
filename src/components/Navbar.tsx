@@ -20,6 +20,9 @@ export default function Navbar() {
             <a href="#ministries" className="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
               Ministries
             </a>
+            <a href="#sermons" className="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
+              Sermons
+            </a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors cursor-pointer">
               Contact
             </a>

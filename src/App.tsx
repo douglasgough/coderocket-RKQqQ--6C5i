@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Welcome from './components/Welcome';
 import ServiceTimes from './components/ServiceTimes';
 import Ministries from './components/Ministries';
+import Sermons from './components/Sermons';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './globals.css';
@@ -14,6 +15,7 @@ function App() {
       <Welcome />
       <ServiceTimes />
       <Ministries />
+      <Sermons />
       <Contact />
       <Footer />
     </div>

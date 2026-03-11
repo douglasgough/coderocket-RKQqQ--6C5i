@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "/",
   build: {
+    outDir: "public",
     minify: false,
     sourcemap: false,
     cssCodeSplit: false,
