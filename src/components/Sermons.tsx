@@ -235,7 +235,7 @@ export default function Sermons() {
         <div className="mt-10 bg-white rounded-2xl border border-gray-100 shadow-sm p-8 md:p-10">
           <div
             data-kb-widget
-            data-api-key="pub_cNty4Fucb6bHeXKSNxP5oPXOVz1iRwkY"
+            data-api-key="pub_ohg3SK3STJbPLc8nD6SE1PfiecbWTh98"
             data-api-base="https://bob.test/api/v1"
           />
         </div>
